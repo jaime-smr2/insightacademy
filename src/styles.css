@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #202020;
+    margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a {
+  color: #fff;
+  text-align: center;
+  padding:  10px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #202020;
+  transition: 0.4s ease-in-out;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 95vh;
+  }
+
+  .half-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .half-button.left {
+    border-right: 1px solid #202020;
+    background-color: #7c0a02;
+  }
+
+  .half-button.left:hover {
+    background-image: linear-gradient(RGBA(124, 10, 2, 0.7), RGBA(124, 10, 2, 0.7)), url(./img/9b0df638-20f3-49ea-978e-1c3b267a05a6.jpg);
+    
+  }
+
+  .half-button.right {
+    border-left: 1px solid #202020;
+    background-color: #1044a4;
+  }
+
+  .half-button.right:hover{
+    background-image: linear-gradient(RGBA(16,68,164,0.7), RGBA(16,68,164,0.7)), url(./img/7788dcc5-8d38-4029-8740-e1eccc6e00cc.png);
+   
+  }
+
+  .half-button:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+    color: #FFF;
+
+  }
+
