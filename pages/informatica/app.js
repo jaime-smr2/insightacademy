@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Datos de ejemplo, ahora incluyendo la propiedad "imagen" y "orden"
     const articulos = [
         { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: '/src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: 'enlace1.html' },
-        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: '/src/img/informatica/', orden: 2, enlace: 'enlace2.html' },
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Este es el artículo rojo de Programación', imagen: '/src/img/informatica/', orden: 3, enlace: 'enlace1.html' },
+        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: '/src/img/informatica/windows_introduction.jpg', orden: 2, enlace: 'enlace2.html' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Python para principiantes', imagen: '/src/img/informatica/python.jpg', orden: 3, enlace: 'enlace1.html' },
         
-        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Este es el artículo verde de Sistemas Operativos', imagen: '/src/img/informatica/', orden: 4, enlace: 'enlace2.html' },
-        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Este es el artículo verde de Sistemas Operativos', imagen: '/src/img/informatica/', orden: 5, enlace: 'enlace2.html' },
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Este es el artículo rojo de Programación', imagen: '/src/img/informatica/', orden: 6, enlace: 'enlace1.html' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Programación Web', imagen: '/src/img/informatica/programacion_web.jpg', orden: 4, enlace: 'enlace2.html' },
+        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Linux', imagen: '/src/img/informatica/linux_introduction.jpg', orden: 5, enlace: 'enlace2.html' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Bases de datos', imagen: '/src/img/informatica/databases.jpg', orden: 6, enlace: 'enlace1.html' },
         
         
     ];

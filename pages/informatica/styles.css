@@ -12,6 +12,9 @@
 #filtro label {
     display: block;
     margin-bottom: 10px;
+    height: 30px;
+    align-items: center;
+
 }
 
 #filtro input[type="radio"] {
@@ -58,7 +61,7 @@
 .articulo img {
     width: 100%; /* La imagen ocupa todo el ancho del artículo */
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
-    max-height: 150px; /* Establece la altura máxima deseada para la imagen */
+    max-height: 250px; /* Establece la altura máxima deseada para la imagen */
     object-fit: cover; /* Ajusta la imagen para cubrir la altura máxima sin perder proporciones */
     border-radius: 8px; /* Agrega bordes redondeados a la imagen */
 }
