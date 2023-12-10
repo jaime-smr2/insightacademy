@@ -69,16 +69,11 @@
 .articulo p {
     margin-top: 10px;
     font-weight: bold;
+    color: #202020;
+    text-decoration: none;
 }
-
-
 
 .articulo:hover {
     background-color: #e0e0e0;
     transform: scale(1.05);
 }
-
-.articulo a {
-    text-decoration: none;
-}
-
