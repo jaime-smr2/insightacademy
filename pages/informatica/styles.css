@@ -1,0 +1,81 @@
+#filtro {
+    float: left;
+    margin-right: 20px;
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 1px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    
+}
+
+#filtro label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#filtro input[type="radio"] {
+    display: none;
+}
+
+#filtro label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#filtro label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+#articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articulo {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden; /* Evita que el texto se desborde sobre la imagen */
+}
+
+.articulo img {
+    width: 100%; /* La imagen ocupa todo el ancho del artículo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+    max-height: 150px; /* Establece la altura máxima deseada para la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir la altura máxima sin perder proporciones */
+    border-radius: 8px; /* Agrega bordes redondeados a la imagen */
+}
+
+.articulo p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+.articulo:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+.articulo a {
+    text-decoration: none;
+}
+

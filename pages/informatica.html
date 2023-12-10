@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/pages/informatica/styles.css">
+    <link  rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>BIENVENIDO A INFORMATICA</h1>
+   
+    <header>
+        <nav class="topnav">
+            <ul>
+                <a href="/index.html">Inicio</a>
+                <a href="/pages/about.html">Acerca de</a>
+                <a href="/pages/contact.html">Contáctanos</a>
+            </ul>
+            <ul>
+                <a href="/pages/login.html">Iniciar sesión</a>
+                <a href="/pages/register.html">Regístrate</a>
+            </ul>
+        </nav>
+    </header>
+   
+    <div id="filtro">
+        <label for="todos">Todos</label>
+        <input type="radio" name="filtro" value="todos" id="todos" checked>
+        
+        <label for="programacion">Programación</label>
+        <input type="radio" name="filtro" value="programacion" id="programacion">
+        
+        <label for="sistemas_operativos">Sistemas Operativos</label>
+        <input type="radio" name="filtro" value="sistemas_operativos" id="sistemas_operativos">
+    </div>
+
+    <div id="articulos">
+
+    </div>
+
+    <script src="/pages/informatica/app.js"></script>
 </body>
 </html>
