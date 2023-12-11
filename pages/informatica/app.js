@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const radiosFiltro = document.getElementsByName('filtro');
     const contenedorArticulos = document.getElementById('articulos');
     
-    // Datos de ejemplo, ahora incluyendo la propiedad "imagen" y "orden"
     const articulos = [
         { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: '/src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: '#' },
         { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: '/src/img/informatica/windows_introduction.jpg', orden: 2, enlace: '#' },
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const articulosFiltrados = (filtro === 'todos') ? articulos : articulos.filter(articulo => articulo.categoria === filtro);
 
         articulosFiltrados.forEach(articulo => {
-            // Crear un enlace <a> en lugar de un div
+            // Crear un enlace <a>
             const enlaceArticulo = document.createElement('a');
             enlaceArticulo.classList.add('articulo');
             enlaceArticulo.href = articulo.enlace; // Asignar el enlace desde el objeto articulo
