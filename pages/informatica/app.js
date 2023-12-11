@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const contenedorArticulos = document.getElementById('articulos');
     
     const articulos = [
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: './../../src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: '#' },
-        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: './../../src/img/informatica/windows_introduction.jpg', orden: 2, enlace: '#' },
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Python para principiantes', imagen: './../../src/img/informatica/python.jpg', orden: 3, enlace: '#' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: './../src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: '#' },
+        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: './../src/img/informatica/windows_introduction.jpg', orden: 2, enlace: '#' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Python para principiantes', imagen: './../src/img/informatica/python.jpg', orden: 3, enlace: '#' },
         
         { nombre: 'Programación', categoria: 'programacion', texto: 'Programación Web', imagen: './../../src/img/informatica/programacion_web.jpg', orden: 4, enlace: '#' },
-        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Linux', imagen: './../../src/img/informatica/linux_introduction.jpg', orden: 5, enlace: '#' },
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Bases de datos', imagen: './../../src/img/informatica/databases.jpg', orden: 6, enlace: '#' },
+        { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Linux', imagen: './../src/img/informatica/linux_introduction.jpg', orden: 5, enlace: '#' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Bases de datos', imagen: './../src/img/informatica/databases.jpg', orden: 6, enlace: '#' },
         
         
     ];
