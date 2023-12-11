@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const contenedorArticulos = document.getElementById('articulos');
     
     const articulos = [
-        { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: 'https://github.com/jaime-smr2/insightacademy/blob/main/src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: '#' },
+        { nombre: 'Programación', categoria: 'programacion', texto: 'Introducción a HTML y CSS', imagen: 'https://github.com/jaime-smr2/insightacademy/blob/main/src/img/informatica/introduction_HTML_CSS.jpg', orden: 1, enlace: 'https://github.com/jaime-smr2/insightacademy/blob/main/src/img/informatica/introduction_HTML_CSS.jpg' },
         { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Windows', imagen: './../../src/img/informatica/windows_introduction.jpg', orden: 2, enlace: '#' },
         { nombre: 'Programación', categoria: 'programacion', texto: 'Python para principiantes', imagen: './../../src/img/informatica/python.jpg', orden: 3, enlace: '#' },
         
