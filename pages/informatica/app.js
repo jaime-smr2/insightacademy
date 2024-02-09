@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { nombre: 'Programación', categoria: 'programacion', texto: 'Programación Web', imagen: './../src/img/informatica/programacion_web.jpg', orden: 4, enlace: '#' },
         { nombre: 'Sistemas Operativos', categoria: 'sistemas_operativos', texto: 'Introducción a Linux', imagen: './../src/img/informatica/linux_introduction.jpg', orden: 5, enlace: '#' },
         { nombre: 'Programación', categoria: 'programacion', texto: 'Bases de datos', imagen: './../src/img/informatica/databases.jpg', orden: 6, enlace: '#' },
-        
-        
+
     ];
 
     function mostrarArticulos(filtro) {
