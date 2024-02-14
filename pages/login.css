@@ -36,6 +36,7 @@ button:hover {
 }
 
 .center-container{
-  padding-top: 50%;
-  padding-left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
