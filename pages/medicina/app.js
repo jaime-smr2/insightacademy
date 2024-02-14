@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const contenedorArticulos = document.getElementById('articulos');
     
     const articulos = [
-        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Salud pública', imagen: '', orden: 1, enlace: '#' },
-        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacología', imagen: '', orden: 2, enlace: '#' },
-        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacoterapia', imagen: '', orden: 3, enlace: '#' },
-        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Enfermedades Infecciosas', imagen: '', orden: 4, enlace: '#' },
-        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Sistemas de Información en Salud', imagen: '', orden: 5, enlace: '#' },
-        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacovigilancia', imagen: '', orden: 6, enlace: '#' },
-        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Neurofarmacología', imagen: '', orden: 7, enlace: '#' },
+        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Salud pública', imagen: './../src/img/medicina/salud_publica.jpg', orden: 1, enlace: '#' },
+        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacología', imagen: './../src/img/medicina/farmacologia.jpg', orden: 2, enlace: '#' },
+        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacoterapia', imagen: './../src/img/medicina/farmacoterapia.jpg', orden: 3, enlace: '#' },
+        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Enfermedades Infecciosas', imagen: './../src/img/medicina/enfermedades_infecciosas.jpg', orden: 4, enlace: '#' },
+        { nombre: 'Medicina', categoria: 'Medicina', texto: 'Primeros auxilios', imagen: './../src/img/medicina/primeros_auxilios.jpg', orden: 5, enlace: '#' },
+        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Farmacovigilancia', imagen: './../src/img/medicina/farmacovigilancia.jpg', orden: 6, enlace: '#' },
+        { nombre: 'Farmacia', categoria: 'Farmacia', texto: 'Neurofarmacología', imagen: './../src/img/medicina/neurofarmacologia.jpg', orden: 7, enlace: '#' },
 
         
         
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         articulosFiltrados.forEach(articulo => {
             const enlaceArticulo = document.createElement('a');
             enlaceArticulo.classList.add('articulo');
-            enlaceArticulo.href = articulo.enlace; // Asignar el enlace desde el objeto articulo
+            enlaceArticulo.href = articulo.enlace;
 
             const imagenArticulo = document.createElement('img');
             imagenArticulo.src = articulo.imagen;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Evento al cambiar el filtro
+    
     radiosFiltro.forEach(radio => {
         radio.addEventListener('change', function () {
             const filtroSeleccionado = document.querySelector('input[name="filtro"]:checked').value;
@@ -48,6 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Mostrar todos los artículos al cargar la página
     mostrarArticulos('todos');
 });
