@@ -1,4 +1,4 @@
-/* form {
+form {
     max-width: 400px;
     width: 100%;
     padding: 20px;
@@ -39,7 +39,7 @@
     resize: none;
     size: 100%;
     
- } */
+ }
 
  .contact-container {
     display: flex;
@@ -51,7 +51,7 @@
   }
   
   .contact-form {
-    width: 300px; /* Ajusta el ancho según tus necesidades */
+    width: 300px; 
   }
   
   .contact-form form {
@@ -69,6 +69,6 @@
   }
   
   .contact-form button {
-    width: 100px; /* Ajusta el ancho según tus necesidades */
+    width: 100px;
   }
   
