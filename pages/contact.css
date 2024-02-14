@@ -72,3 +72,8 @@ form {
     width: 100px;
   }
   
+
+  textarea{
+    resize: none;
+    width: 500px;
+  }
