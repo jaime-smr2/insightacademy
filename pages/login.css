@@ -35,7 +35,7 @@ button:hover {
   background-color: #45a049;
 }
 
-div#center-container{
+.center-container{
   display: flex;
   align-items: center;
   justify-content: center;
