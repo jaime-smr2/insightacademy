@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in</title>
-    <link rel="stylesheet" href="/styles.css"> 
-
+    <title>Log in</title>
+    <link rel="stylesheet" href="/insightacademy/styles.css"> 
+    <link rel="stylesheet" href="./login.css">     
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="topnav">
+            <ul>
+                <a href="/insightacademy/">Inicio</a>
+                <a href="/insightacademy/pages/about.html">Acerca de</a>
+                <a href="/insightacademy/pages/contact.html">Contáctanos</a>
+            </ul>
+            <ul>
+                <a href="/insightacademy/pages/login.html">Iniciar sesión</a>
+                <a href="/insightacademy/pages/register.html">Regístrate</a>
+            </ul>
+        </nav>
+    </header>
+   
+    <h1>Regístrate</h1>
+    <div class="center-container">
+        <div class="center-div">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                                
+                <button type="submit">Submit</button>
+            </form>
+        </div>        
+    </div>
+
+
+
 </body>
 </html>
